@@ -37,11 +37,7 @@ class Solution{
 };
 
 int main(){
-     vector<int> nums;
-     nums.assign(6,1);
-     
-
-
-
+    
+    
    return 0;
 }
