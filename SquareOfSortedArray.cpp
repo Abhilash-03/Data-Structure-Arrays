@@ -23,7 +23,7 @@ class Solution{
         int lft = 0;
         int rgt = nums.size()-1;
 
-        for(int i = nums.size(); i>=0; i--){
+        for(int i = nums.size()-1; i>=0; i--){
             if(abs(nums[lft])> abs(nums[rgt])){
                 ans[i] = nums[lft] * nums[lft];
                 lft++;
